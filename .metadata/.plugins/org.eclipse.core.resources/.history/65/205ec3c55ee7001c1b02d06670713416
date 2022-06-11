@@ -1,0 +1,29 @@
+package estrutura_condicional;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Temperatura {
+
+	public static void main(String[] args) {
+		
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		double temperatura;
+		char escala;
+		double f;
+		double c;
+		
+		System.out.println("Você vai digitar a temperatura em qual escala (C/F)?");
+		escala= sc.next();
+		
+		if ( escala == f) {
+			temperatura 
+		}
+	
+				Digite a temperatura em Fahrenheit: 75.00
+				Temperatura equivalente em Celsius: 23.89 
+	}
+
+}

@@ -1,0 +1,39 @@
+package estrutura_condicional;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Lanchonete {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		int codigo = 0,quantidade = 0;
+		double aPagar;
+
+		
+		System.out.println("Codigo do produto comprado: ");
+		System.out.println("Quantidade comprada: ");
+		
+		switch(codigo){
+		case 1:
+			aPagar = 5.00 * quantidade;
+		case 2:
+			aPagar = 3.50 * quantidade;
+			
+		case 3:
+			aPagar = 4.80 * quantidade;
+		case 4:
+			aPagar = 8.90 * quantidade;
+			
+		case 5:
+			aPagar = 7.32 * quantidade;
+		}
+		
+		System.out.println("Valor a pagar: " + String.format("%.2f", aPagar));
+
+		sc.close();
+
+	}
+
+}

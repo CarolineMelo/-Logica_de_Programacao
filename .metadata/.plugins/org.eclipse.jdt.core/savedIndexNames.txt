@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\csgmelo\OneDrive - rd.com.br\Documents\Cursos_Pessoal\Curso Completo de Algoritmos e Lógica de Programação\Atividades\.metadata\.plugins\org.eclipse.jdt.core
+3818253565.index
+1419014417.index
+1865797976.index
