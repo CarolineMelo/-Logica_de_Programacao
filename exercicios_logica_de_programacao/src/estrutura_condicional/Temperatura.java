@@ -20,15 +20,15 @@ public class Temperatura {
 		if (escala == 'F') {
 
 			System.out.println("Digite a temperatura em Fahrenheit:");
-			 F = sc.nextDouble();
-			 C = (F - 32)*5/9;
+			F = sc.nextDouble();
+			C = (F - 32) * 5 / 9;
 //				double C =  5/9*(F-32);
-			System.out.println("Temperatura equivalente em Celsius: " + String.format("%.2f",C));
+			System.out.println("Temperatura equivalente em Celsius: " + String.format("%.2f", C));
 
 		} else if (escala == 'C') {
 			System.out.println("Digite a temperatura em Celsius:");
-			 C = sc.nextDouble();
-			 F = 9 * C / 5 + 32;
+			C = sc.nextDouble();
+			F = 9 * C / 5 + 32;
 			System.out.println("Temperatura equivalente em Fahrenheit: " + String.format("%.2f", F));
 		} else {
 

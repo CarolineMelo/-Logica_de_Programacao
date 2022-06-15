@@ -11,9 +11,19 @@ public class TesteEnquanto {
 
 		int x;
 		int soma;
-
-		System.out.println("Digite o primeiro número: ");
+		
+		System.out.println("Exercício: Estrutura repetitiva enquanto");
+		
+		System.out.print("Digite o primeiro número: ");
 		x = sc.nextInt();
+		soma = 0;
+		while (x !=0) {
+			soma = soma + x;
+			System.out.print("Digite outro número: ");
+			x= sc.nextInt();
+		}
+		System.out.println("SOMA = "+ soma);
+		sc.close();
 	}
 
 }

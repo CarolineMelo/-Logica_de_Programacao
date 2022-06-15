@@ -10,15 +10,15 @@ public class Multiplos {
 		Scanner sc = new Scanner(System.in);
 		int n1;
 		int n2;
-		System.out.println("Digite dois numeros inteiros: ");
+		System.out.println("Digite dois números inteiros: ");
 		n1 = sc.nextInt();
 		n2 = sc.nextInt();
-		if(n1 % n2 == 0 || n2 %n1 ==0){
+		if (n1 % n2 == 0 || n2 % n1 == 0) {
 			System.out.println("São multiplos");
-		}else {
+		} else {
 			System.out.println("Não são multiplos");
 		}
-		
+
 		sc.close();
 
 	}

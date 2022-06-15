@@ -8,22 +8,21 @@ public class Lanchonete {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		int codigo,quantidade;
+		int codigo, quantidade;
 		double aPagar = 0;
 
-		
 		System.out.print("Codigo do produto comprado: ");
 		codigo = sc.nextInt();
 		System.out.print("Quantidade comprada: ");
-		quantidade=sc.nextInt();
-		switch(codigo){
+		quantidade = sc.nextInt();
+		switch (codigo) {
 		case 1:
 			aPagar = 5.00 * quantidade;
 			break;
 		case 2:
 			aPagar = 3.50 * quantidade;
 			break;
-			
+
 		case 3:
 			aPagar = 4.80 * quantidade;
 			break;
@@ -35,9 +34,9 @@ public class Lanchonete {
 			break;
 		default:
 			System.out.println("O número escolhido é inválido! Digite um número entre 1 a 5.");
-			
+
 		}
-		
+
 		System.out.println("Valor a pagar: " + String.format("%.2f", aPagar));
 
 		sc.close();

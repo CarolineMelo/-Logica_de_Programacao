@@ -1,4 +1,5 @@
 package estrutura_condicional;
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -18,26 +19,19 @@ public class Troco_verificado {
 		quantidade = sc.nextInt();
 		System.out.println("Dinheiro Recebido: ");
 		dinheiroRecebido = sc.nextDouble();
-		
-		if (dinheiroRecebido >= precoProduto * quantidade){
+
+		if (dinheiroRecebido >= precoProduto * quantidade) {
 			troco = dinheiroRecebido - (precoProduto * quantidade);
 			System.out.println("TROCO = " + String.format("%.2f", troco));
-		}else {
+		} else {
 			faltam = precoProduto * quantidade - dinheiroRecebido;
-			System.out.println("Dinheiro insuficiente.Faltam " + String.format("%.2f", faltam)+" REAIS");
+			System.out.println("Dinheiro insuficiente.Faltam " + String.format("%.2f", faltam) + " REAIS");
 		}
-		
-		
-		
-		
-		
-		
-		
+
 		sc.close();
 	}
 
 }
-
 
 //Problema "troco_verificado" 
 //Fazer um programa para calcular o troco no processo de pagamento de um produto de uma mercearia. 

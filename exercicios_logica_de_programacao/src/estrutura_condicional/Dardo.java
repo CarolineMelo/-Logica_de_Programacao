@@ -11,20 +11,20 @@ public class Dardo {
 		double d1;
 		double d2;
 		double d3;
-	
+
 		System.out.println("Digite as três distâncias:");
-		d1=sc.nextDouble();
-		d2=sc.nextDouble();
-		d3=sc.nextDouble();
-		
-		if (d1>d2 && d1> d3) {
-			System.out.println("MAIOR DISTÂNCIA = "+ String.format("%.2f", d1));
-		}else if(d2>d3) {
-			System.out.println("MAIOR DISTÂNCIA = "+ String.format("%.2f", d2));
-		}else {
-			System.out.println("MAIOR DISTÂNCIA = "+ String.format("%.2f", d3));
+		d1 = sc.nextDouble();
+		d2 = sc.nextDouble();
+		d3 = sc.nextDouble();
+
+		if (d1 > d2 && d1 > d3) {
+			System.out.println("MAIOR DISTÂNCIA = " + String.format("%.2f", d1));
+		} else if (d2 > d3) {
+			System.out.println("MAIOR DISTÂNCIA = " + String.format("%.2f", d2));
+		} else {
+			System.out.println("MAIOR DISTÂNCIA = " + String.format("%.2f", d3));
 		}
-		
+
 		sc.close();
 	}
 

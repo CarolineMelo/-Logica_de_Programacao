@@ -10,15 +10,15 @@ public class Aumento {
 		Scanner sc = new Scanner(System.in);
 		double salario, aumento, novoSalario;
 		int porcentagem;
-		
+
 		System.out.print("Digite o salário da pessoa: ");
 		salario = sc.nextDouble();
-		
+
 		if (salario <= 1000.00) {
 			porcentagem = 20;
 		} else if (salario > 1000.00 && salario <= 3000.00) {
 			porcentagem = 15;
-			
+
 		} else if (salario <= 8000.00) {
 			porcentagem = 10;
 
@@ -29,7 +29,7 @@ public class Aumento {
 		aumento = salario * porcentagem / 100;
 		novoSalario = salario + aumento;
 		System.out.println("Novo salário = R$ " + String.format("%.2f", novoSalario));
-		System.out.println("Aumento: R$ " + String.format("%.2f",aumento));
+		System.out.println("Aumento: R$ " + String.format("%.2f", aumento));
 		System.out.println("Porcentagem: " + porcentagem + "%");
 
 		sc.close();
