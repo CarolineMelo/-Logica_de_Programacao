@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1656689322 source:c:\temp\ws-cb\idades\main.c
+	<stdio.h>
+	<stdlib.h>
+
